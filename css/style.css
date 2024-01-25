@@ -1,0 +1,131 @@
+:root {
+    --font-meun-size: 25px;
+    --font-open-size: 30px;
+    --font-h1-size: 60px;
+    --color-header-slider: rgba(214, 46, 51, 0.6);
+    --color-content-slider: #ccc;
+    overflow-x: hidden;
+}
+
+.w-83 {
+    width: 80%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-size: var(--font-h1-size);
+}
+
+.w-90 {
+    width: 90%;
+}
+
+
+/* home */
+
+.header {
+    background-image: linear-gradient( rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url('../images/events-heavenly-header.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+}
+
+.menu {
+    width: 0;
+    font-size: var(--font-meun-size);
+}
+
+.menuMain {
+    display: none;
+}
+
+.open-icon {
+    font-size: var(--font-open-size);
+}
+
+.content {
+    top: 40%;
+    width: 100%;
+}
+
+.menu li a {
+    color: #fff;
+    transition: color 1s;
+}
+
+.menu li a:hover {
+    color: rgba(214, 46, 51, 0.4);
+    transition: color 1s;
+}
+
+
+/* duration */
+
+.bg-slider-header {
+    background-color: var(--color-header-slider);
+}
+
+.bg-slider-content,
+#p-one,
+#p-two,
+#p-three,
+#p-four {
+    background-color: var(--color-content-slider);
+    /* transform: translateY(0);
+    transition: 1s transform; */
+    display: none;
+}
+
+
+/* details */
+
+#Details {
+    background-image: linear-gradient( rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url('../images/invitation-2508607__340.jpg');
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 45vh;
+}
+
+
+/* contacts */
+
+.fa-brands {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #777;
+}
+
+.fa-brands:hover {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #D62E33;
+}
+
+.btn-color {
+    background-color: #D62E33;
+    padding: 10px;
+    width: 30%;
+}
